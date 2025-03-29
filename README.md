@@ -68,6 +68,10 @@ Ejemplo de petición a `/search`:
 }
 ```
 
+## Desarrollo
+
+Todo este proyecto se desarrolló automáticamente desde Cursor IDE utilizando conexiones MCP de GitHub. La integración continua y el despliegue fueron automatizados gracias a estas herramientas.
+
 ## Licencia
 
 MIT 
