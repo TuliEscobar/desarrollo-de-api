@@ -1,8 +1,13 @@
-# -*- coding: utf-8 -*-
 from fastapi import FastAPI
 from pyngrok import ngrok
 import uvicorn
 import nest_asyncio
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+Ngrok_token = os.getenv("Ngrok_token")
 
 # Permitir múltiples loops en Colab
 nest_asyncio.apply()
